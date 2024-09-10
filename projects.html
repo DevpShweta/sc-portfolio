@@ -20,12 +20,10 @@
               align-items: center;
               height: 100vh;
               margin: 0;
-              background-color: rgb(0, 0, 33);
+              background-color:rgb(0, 0, 33); ;
               font-family: 'Poppins', sans-serif;
-              flex-direction: column; /* Ensure proper alignment for cards in small screens */
-              padding: 20px; /* Add padding to prevent cards from touching the edges */
             }
-          
+        
             .card {
               width: 300px;
               background: white;
@@ -35,14 +33,13 @@
               transition: all 0.3s ease;
               cursor: pointer;
               margin: 10px;
-              display: inline-block; /* Allow cards to flow and wrap */
             }
-          
+        
             .card:hover {
               transform: translateY(-10px);
               box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
             }
-          
+        
             .card-image {
               width: 100%;
               height: 150px;
@@ -51,43 +48,27 @@
               border-top-left-radius: 20px;
               border-top-right-radius: 20px;
             }
-          
+        
             .card-content {
               padding: 20px;
             }
-          
+        
             .card-title {
               font-size: 24px;
               font-weight: 600;
               color: #333;
               margin-bottom: 10px;
             }
-          
+        
             .card-text {
               font-size: 16px;
               line-height: 1.6;
               color: #666;
               font-weight: 300;
             }
-          
-            @media (max-width: 768px) {
-              .card {
-                width: 100%; /* Adjust width to fit on smaller screens */
-                flex-direction: column;
-                align-items: center;
-              }
-            }
-          
-            @media (max-width: 480px) {
-              .card {
-                width: 100%; /* Full width on very small screens */
-                margin: 5px 0; /* Reduced margin for very small screens */
-                flex-direction: column;
-                align-items: center;
-              }
-            }
+        
+            
           </style>
-          
         </head>
         
         <body>
